@@ -33,3 +33,5 @@ function displayTodos() {
         list.appendChild(li);
     })
 }
+
+//funktion getToDosFromCookie wird nicht aufgerufen
