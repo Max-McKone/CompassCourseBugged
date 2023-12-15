@@ -3,11 +3,15 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="../styles/projectStyle.css">
+    <link rel="stylesheet" href="../styles/projectStyles.css">
 </head>
 
 <body>
     <script>
+        function suspiciousFunction() {
+            alert("Bug is fixed!")
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             suspiciousFunction();
         });
